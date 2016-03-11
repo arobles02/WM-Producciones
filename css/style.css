@@ -58,12 +58,14 @@ Table of contents
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
+
 
 /* ===================================
     Reset
 ====================================== */
 
-body{ font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
+body{ font-family: 'Orbitron', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
 a, a:active{ color: #626262; text-decoration: none; }
 a:hover, a:focus{ color: #272727;  text-decoration: none}
 a:focus {outline: none !important; }
@@ -186,6 +188,7 @@ a.light-gray-text:hover { color: #7f7f7f !important}
 .font-weight-600 { font-weight:600 !important}
 .font-weight-700 { font-weight:700 !important}
 .font-weight-800 { font-weight:800 !important}
+.font-weight-900 { font-weight:800 !important}
 
 /* text property */
 .text-transform-unset { text-transform:unset !important}
@@ -210,8 +213,8 @@ a.light-gray-text:hover { color: #7f7f7f !important}
 .first-letter-round {background-color: #e6af2a; border-radius: 50%; color: #fff; font-size: 30px; padding: 15px;}
 
 /* font family */
-.alt-font {font-family: 'Montserrat', sans-serif !important;}
-.main-font {font-family: 'Roboto', sans-serif !important;}
+.alt-font {font-family: 'Orbitron', sans-serif !important;}
+.main-font {font-family: 'Orbitron', sans-serif !important;}
 
 /* ===================================
     Icon
@@ -594,7 +597,7 @@ section { padding: 130px 0; }
 
 
 /* buttons */
-.btn {display: inline-block;  margin-right: 15px; letter-spacing: 1px; border:1px solid transparent; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Montserrat', sans-serif !important; font-weight: 600 }
+.btn {display: inline-block;  margin-right: 15px; letter-spacing: 1px; border:1px solid transparent; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Orbitron', sans-serif !important; font-weight: 600 }
 .btn-round { border-radius:4px !important}
 .btn i { margin-right:5px}
 .btn.btn-large i { font-size: 24px;}
